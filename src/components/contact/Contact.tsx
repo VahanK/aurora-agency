@@ -8,7 +8,7 @@ export const Contact = () => {
     <section className="section-wrapper" id="contact">
       <div className="w-full max-w-xl mx-auto space-y-6">
         <div>
-          <p className="mb-1.5 text-sm font-light uppercase text-indigo-400">/ Get in Touch</p>
+          <p className="mb-1.5 text-sm font-light uppercase text-indigo-400">/ Contact Us</p>
           <hr className="border-zinc-700" />
         </div>
         <p className="max-w-lg text-xl leading-relaxed text-zinc-200">

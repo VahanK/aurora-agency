@@ -1,21 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import { SiInstagram } from "react-icons/si";
-import { OutlineButton } from "../buttons/OutlineButton";
 
 export const Header = () => {
   return (
     <header className="h-[72px] px-4 flex items-center justify-between sticky top-0 z-20 bg-zinc-900/50 backdrop-blur-md">
       <MyLinks />
-      <OutlineButton
-        onClick={() => {
-          document.getElementById("contact")?.scrollIntoView({
-            behavior: "smooth"
-          });
-        }}
-      >
-        Get Started
-      </OutlineButton>
     </header>
   );
 };
