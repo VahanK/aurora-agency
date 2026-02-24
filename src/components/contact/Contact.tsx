@@ -1,4 +1,4 @@
-import { AiFillMail } from "react-icons/ai";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
 import Link from "next/link";
 import Reveal from "../util/Reveal";
 
@@ -8,37 +8,31 @@ export const Contact = () => {
       <div className="max-w-xl mx-auto bg-zinc-800 px-8 py-12 rounded-xl">
         <Reveal width="w-full">
           <h4 className="text-4xl md:text-5xl text-center font-black">
-            Contact<span className="text-indigo-500">.</span>
+            Get Started<span className="text-indigo-500">.</span>
           </h4>
         </Reveal>
         <Reveal width="w-full">
           <p className="text-center my-8 text-zinc-300 leading-relaxed">
-            Shoot me an email if you want to connect! You can also find me on{" "}
-            <Link
-              href="https://www.linkedin.com"
-              target="_blank"
-              className="text-indigo-300 hover:underline"
-            >
-              Linkedin
-            </Link>{" "}
-            or{" "}
-            <Link
-              href="https://www.twitter.com"
-              target="_blank"
-              className="text-indigo-300 hover:underline"
-            >
-              Twitter
-            </Link>{" "}
-            if that&apos;s more your speed.
+            Ready to transform your digital presence? Get in touch with us today!
+            Whether you have a project in mind or just want to explore possibilities,
+            we&apos;re here to help bring your vision to life.
           </p>
         </Reveal>
         <Reveal width="w-full">
-          <Link href="mailto:bob.ross@notreal.com">
-            <div className="flex items-center justify-center gap-2 w-fit text-lg md:text-2xl whitespace-normal mx-auto hover:text-indigo-300 transition-colors">
-              <AiFillMail />
-              <span>bob@notreal.com</span>
-            </div>
-          </Link>
+          <div className="flex flex-col gap-4 items-center">
+            <Link href="mailto:contact@auroracreative.com">
+              <div className="flex items-center justify-center gap-2 w-fit text-lg md:text-xl whitespace-normal hover:text-indigo-300 transition-colors">
+                <AiFillMail />
+                <span>contact@auroracreative.com</span>
+              </div>
+            </Link>
+            <Link href="tel:+96181296457">
+              <div className="flex items-center justify-center gap-2 w-fit text-lg md:text-xl whitespace-normal hover:text-indigo-300 transition-colors">
+                <AiFillPhone />
+                <span>+961 81 296 457</span>
+              </div>
+            </Link>
+          </div>
         </Reveal>
       </div>
     </section>
