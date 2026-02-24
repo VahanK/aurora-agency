@@ -38,7 +38,7 @@ export const Contact = () => {
             WhatsApp
           </a>
           <a
-            href="mailto:contact@auroracreative.com"
+            href="mailto:info@auroracreativehouse.com"
             className="flex-1 rounded-lg border border-indigo-500 bg-indigo-500/10 py-3 px-4 text-sm font-medium transition-colors hover:bg-indigo-500 hover:text-white flex items-center justify-center gap-2 text-indigo-400 hover:border-indigo-500"
           >
             <AiFillMail className="text-xl" />
@@ -50,8 +50,8 @@ export const Contact = () => {
             +961 81 296 457
           </a>
           {" • "}
-          <a href="mailto:contact@auroracreative.com" className="hover:text-indigo-400 transition-colors">
-            contact@auroracreative.com
+          <a href="mailto:info@auroracreativehouse.com" className="hover:text-indigo-400 transition-colors">
+            info@auroracreativehouse.com
           </a>
         </p>
       </div>
