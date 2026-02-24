@@ -1,7 +1,7 @@
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
 import Reveal from "../util/Reveal";
 
@@ -76,10 +76,6 @@ export const Project = ({
                 {title}
               </h4>
               <div className="w-full h-[1px] bg-zinc-600" />
-
-              <Link href={code} target="_blank" rel="nofollow">
-                <AiFillGithub className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
-              </Link>
 
               <Link href={projectLink} target="_blank" rel="nofollow">
                 <AiOutlineExport className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
